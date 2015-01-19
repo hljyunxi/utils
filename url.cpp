@@ -1,3 +1,7 @@
+#include <string>
+
+using namespace std;
+
 void ParamsStr2Map(
         map<string, string>& key2value, const char* str, bool decode_uri)
 {
